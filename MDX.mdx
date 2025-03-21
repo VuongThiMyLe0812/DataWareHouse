@@ -1,0 +1,29 @@
+﻿--1 Doanh thu bán theo từng sản phẩm theo thứ tự giảm dần
+select  [Measures].[Transaction Amount] on columns,
+	nonempty (order  ([Dim Item].[Item Name].[Item Name],[Measures].[Transaction Amount], DESC))on rows
+from [STAR GK]; 
+
+--2 Top 3 sản phẩm bán chạy nhất
+select [Measures].[Quantity]on columns,
+	topcount ([Dim Item].[Item Name].[Item Name],3,[Measures].[Quantity]) on rows
+from [STAR GK];
+
+--3 Truy vấn số lượng bán theo sản phẩm
+select [Measures].[Quantity] on columns,
+	nonempty([Dim Item].[Item Name].[Item Name]) on rows
+FROM [STAR GK];
+
+--4 Doanh số theo khung giờ
+select [Measures].[Transaction Amount] on columns,
+	nonempty ([Dim Time].[Time Of Sale].[Time Of Sale]) on rows
+from [STAR GK];
+
+--5 Tổng số lượng sản phẩm bán theo ngày 
+select  [Measures].[Transaction Amount] on columns,
+	[Dim Time].[Date].[Date] on rows
+from [STAR GK];
+
+--6 Tổng số lượng bán theo từng sản phẩm
+select [Measures].[Quantity] on columns,
+	nonempty (order ([Dim Item].[Item Name].[Item Name],[Measures].[Quantity], DESC))  on rows
+from [STAR GK];

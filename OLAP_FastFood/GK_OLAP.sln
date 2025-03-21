@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "GK_OLAP", "GK_OLAP\GK_OLAP.dwproj", "{03D7E519-FA8C-25C2-F213-5685F21CC4EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03D7E519-FA8C-25C2-F213-5685F21CC4EC}.Development|Default.ActiveCfg = Development
+		{03D7E519-FA8C-25C2-F213-5685F21CC4EC}.Development|Default.Build.0 = Development
+		{03D7E519-FA8C-25C2-F213-5685F21CC4EC}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {315364A4-F71A-4364-BA7A-8BF6511669E6}
+	EndGlobalSection
+EndGlobal

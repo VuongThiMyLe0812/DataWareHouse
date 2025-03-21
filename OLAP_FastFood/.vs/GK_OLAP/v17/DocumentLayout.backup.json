@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KHOVAKHAIPHADL\\GK_OLAP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03D7E519-FA8C-25C2-F213-5685F21CC4EC}|GK_OLAP\\GK_OLAP.dwproj|D:\\KHOVAKHAIPHADL\\GK_OLAP\\GK_OLAP\\ETL Schema_Cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{03D7E519-FA8C-25C2-F213-5685F21CC4EC}|GK_OLAP\\GK_OLAP.dwproj|solutionrelative:GK_OLAP\\ETL Schema_Cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 202,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ETL Schema_Cube.cube [Design]",
+              "DocumentMoniker": "D:\\KHOVAKHAIPHADL\\GK_OLAP\\GK_OLAP\\ETL Schema_Cube.cube",
+              "RelativeDocumentMoniker": "GK_OLAP\\ETL Schema_Cube.cube",
+              "ToolTip": "D:\\KHOVAKHAIPHADL\\GK_OLAP\\GK_OLAP\\ETL Schema_Cube.cube [Design]",
+              "RelativeToolTip": "GK_OLAP\\ETL Schema_Cube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-09T01:26:25.115Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 12,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
